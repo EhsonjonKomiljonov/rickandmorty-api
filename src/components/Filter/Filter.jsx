@@ -2,7 +2,7 @@ import { FilterBtn } from '../FilterBtn/FilterBtn';
 
 export const Filter = ({ setStatus, setGender, setSpecies }) => {
   const statusData = ['alive', 'dead', 'unknown'];
-  const genderData = ['male', 'famele', 'unknown', 'genderless'];
+  const genderData = ['male', 'female', 'unknown', 'genderless'];
   const speciesData = [
     'human',
     'alien',
